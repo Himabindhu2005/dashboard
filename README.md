@@ -1,19 +1,45 @@
+# Dashboard Chrome Extension
+A simple and visually appealing Chrome extension that serves as a personal dashboard. It displays the current time, a random motivational quote, and a custom greeting — built using HTML, CSS, and JavaScript.
+
+# Features
+Dynamic clock and date
+
+Personalized greeting message
+
+Random nature photo quotes using API
+
+Responsive and clean UI
+
+Works as a Chrome new tab extension
+
 # Getting Started
-Install the dependencies and run the project
-```
+To run this project locally:
+
+```bash
 npm install
-npm start
+npm run dev
 ```
+Make sure you have Node.js installed.
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+# Load as a Chrome Extension
+Build the project:
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+```bash
+npm run build
+```
+Go to chrome://extensions/ in your browser.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+Enable Developer Mode (top right).
 
-Happy Coding!
+Click Load unpacked and select the dist/ folder generated from the build.
+
+Open a new tab to view your dashboard!
+
+# Built With
+HTML
+
+CSS
+
+JavaScript
+
+Vite
